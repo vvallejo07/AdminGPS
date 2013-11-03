@@ -23,24 +23,30 @@
 	<div data-role="content">	
 		<ul data-role="listview" data-inset="true">
 			<li id="sinc" ><a href="#">Sincronizar Clientes</a></li>
-            <li><a href="#page3">Actualizar Cliente</a></li>
+            <li id="datos"><a href="#page3">Actualizar Cliente</a></li>
 			<li><a href="#page4">Ver Mapa</a></li>
 		</ul>		
 	</div>
 	<div data-role="footer" data-position="fixed">
-		<h4>Pie de página</h4>
+		<h4>Aplicación Administrador</h4>
 	</div>
 </div>
 
 <div data-role="page" id="page3">
 	<div data-role="header">
-		<h1>Página tres</h1>
+		<h1>Clientes</h1>
 	</div>
-	<div data-role="content">	
-		Contenido		
+	<div data-role="content">
+		<ul data-role="listview" data-inset="false" data-dividertheme="a">
+        	<li></li>
+            <li data-role="list-divider">Ruta</li>
+            <li>
+            	<select id="bdRuta">
+            </li>
+        </ul>		
 	</div>
-	<div data-role="footer">
-		<h4>Pie de página</h4>
+	<div data-role="footer" data-position="fixed">
+		<h4>Geolocalizar Clientes</h4>
 	</div>
 </div>
 

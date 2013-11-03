@@ -13,6 +13,7 @@ function obtenerRutas(url){
         	alert(data.responseText);
         },
         success: function(result) {
+			console.log(result);
 			actualizarBD(result);
         }
 	});		
